@@ -1,16 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
 
 :root {
-  --main-color: black;
+  --main-color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
 
 body {
-  max-width: 1500px;
+  max-width: 1600px;
   margin: auto;
+  background-color: #ffffff;
 }
 
-body>header>nav>a>img {
+.outer-container {
+  width: 1600px;
+  background-color: #474545;
+}
+.page-nav {
+  background-color: #000000;
+}
+
+body > div > header > nav > a > img {
   width: 300px;
   height: 150px;
 }
@@ -32,6 +41,7 @@ img {
   text-transform: uppercase;
   color: var(--main-color);
   font-family: "Roboto", sans-serif;
+  font-size: 20px;
   font-weight: 900;
   transition: all 0.7s;
 }
@@ -52,15 +62,15 @@ img {
   }
 }
 
- /* .carousel-item {
-  /* background-image: url(../img/arminvanb.jpg); */
-  /* background-size: cover; */
-  /* height: 650px; */
-  /* background-position: top;
+/* .carousel-item {
+  background-image: url(../img/arminvanb.jpg);
+  background-size: cover;
+  height: 650px;
+  background-position: top;
   display: flex;
   align-items: center;
-  justify-content: center; */
-}  */
+  justify-content: center;
+} */
 
 /* .button {
   border: 1px solid #ffffff;
@@ -83,14 +93,187 @@ img {
   /* cursor: pointer; */
 }
 
+/* SECTION BIOGRAPHY */
+
+#biography {
+  width: 1600px;
+  height: 700px;
+  background-color: #000000;
+}
+
+#biography > div {
+  /* float: right; */
+  /* margin-top: 40px;
+  margin-right: 80px; */
+}
+
+#biography > div > h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 90px;
+}
+
+#biography > div > p:nth-child(2) {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+}
+
+#biography > div > p:nth-child(3) {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 60px;
+}
+
+#biography > div > a {
+  color: #c60204;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  text-align: center;
+  padding-left: 630px;
+}
+
+/* #biography > img {
+  float: left;
+  width: 400px;
+  height: 600px;
+  margin-top: 40px;
+  margin-left: 80px;
+} */
+/* SECTION #2 */
+
+#a_state_of_trance {
+  background-color: #000000;
+  width: 1600px;
+  height: 1200px;
+}
+
+.overlay {
+  width: 1600px;
+  /* height: 700px;
+  background-color: #000000;
+  opacity: 0.5; */
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.radio-about {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.radio-title {
+  color: #c60204;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+#a_state_of_trance > img {
+  width: 500px;
+  height: 300px;
+  text-align: center;
+}
+
+/* SECTION #3 */
+
+#tour_dates
+  > div
+  > ul
+  > li:nth-child(1)
+  > span.event-info
+  > span.event-lang
+  > img {
+  width: 50px;
+  height: 30px;
+}
+
+#tour_dates
+  > div
+  > ul
+  > li:nth-child(2)
+  > span.event-info
+  > span.event-lang
+  > img {
+  width: 50px;
+  height: 30px;
+}
+
+#tour_dates
+  > div
+  > ul
+  > li:nth-child(3)
+  > span.event-info
+  > span.event-lang
+  > img {
+  width: 50px;
+  height: 30px;
+}
+
+#contact_me {
+  width: 1600px;
+  height: 700px;
+  background-color: #000000;
+}
+
+#contact_me > img {
+  float: left;
+  width: 700px;
+  height: 400px;
+  margin: 120px 0 0 120px;
+}
+
+#contact_me > form {
+  float: right;
+  margin: 120px 350px 0 0;
+}
+
 .footer-container {
-  width: 1500px;
-  height: 200px;
-  background-color: rgb(127, 160, 165);
+  width: 1600px;
+  height: 150px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #000000;
+  bottom: 0;
+  padding: 60px 0;
+}
+
+.general-info {
+  font-size: 18px;
+  color: #9e9e9e;
+  line-height: 1.5;
 }
 
 .footer-links a {
-color: rgb(255, 255, 255);
-text-decoration: none;
-font-size: 12px;
+  display: inline-block;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-links a:hover {
+  color: #c60204;
+  text-decoration: underline;
 }
