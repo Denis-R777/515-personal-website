@@ -181,7 +181,7 @@ img {
 
   h3 {
     color: #ffffff;
-    font-size: 32px;
+    font-size: 28px;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     padding-top: 50px;
@@ -216,25 +216,25 @@ img {
 
   }
 
+  #tour_dates>div>div>img {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-left: 70px;
+  }
+
   .card-event-place {
     float: right;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     margin-top: 8px;
     margin-right: 5px;
   }
 
-  #tour_dates>div>div>img {
-    float: left;
-    width: 30px;
-    height: 20px;
-    margin-left: 40px;
-  }
-
   .btn-container {
-    padding: 100px 0 0 30px;
+    padding: 140px 0 0 30px;
 
   }
 
