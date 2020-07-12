@@ -277,20 +277,30 @@ img {
 
   #contact_me {
     width: 1120px;
-    height: 700px;
+    height: 400px;
     background-color: #000000e1;
   }
 
-  #contact_me>img {
+  .location {
+    margin: 25px 0 0 50px;
+  }
+
+  /* 
+  #map {
+    width: 1120px;
+    height: 400px;
+  } */
+
+  /* #contact_me>img {
     float: left;
     width: 500px;
     height: 300px;
     margin: 120px 0 0 120px;
-  }
+  } */
 
   #contact_me>form {
     float: right;
-    margin: 120px 150px 0 0;
+    /* margin: 120px 150px 0 0; */
   }
 
   /* FOOTER!!! */
